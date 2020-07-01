@@ -1,0 +1,70 @@
+/*global*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+
+/* layout*/
+.container{
+    width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    
+    
+}
+
+/*top image style*/
+.image img{
+    
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+/*info*/
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding-bottom: 50px;
+}
+.info img{
+    width: 50%;
+    
+}
+.title{
+    padding-bottom: 20px;
+    color: pink;
+    
+}
+.content{
+    display: flex;
+    padding-bottom: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
